@@ -29,7 +29,7 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
 2. Construa a aplicação:
 
     ```bash
-    mvn clean package
+    docker-compose build
     ```
 
 3. Inicie os containers Docker:
