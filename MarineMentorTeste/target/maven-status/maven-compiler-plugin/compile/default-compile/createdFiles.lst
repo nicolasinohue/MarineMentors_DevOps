@@ -1,0 +1,7 @@
+br\com\fiap\classes\Eventos.class
+br\com\fiap\servers\Client.class
+br\com\fiap\servers\ServidorUsuario.class
+br\com\fiap\classes\Artigo.class
+br\com\fiap\servers\ServidorEventos.class
+br\com\fiap\classes\Usuario.class
+br\com\fiap\servers\ServidorArtigo.class
