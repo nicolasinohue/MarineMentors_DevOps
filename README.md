@@ -14,7 +14,7 @@ Este projeto é um portal de telemedicina construído usando Java Spring Boot, c
 ## Pré-requisitos
 Antes de começar, certifique-se de que você tem os seguintes requisitos atendidos:
 
-- Docker e Docker Compose instalados na sua máquina
+- Docker, Docker Compose e Docker Desktop instalados na sua máquina
 - Java JDK 17 instalado
 - Maven instalado
 - Git instalado
