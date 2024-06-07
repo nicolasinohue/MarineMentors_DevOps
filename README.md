@@ -22,7 +22,7 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/nicolasinohue/merine-mentors.git
+    git clone [https://github.com/nicolasinohue/merine-mentors.git](https://github.com/nicolasinohue/MarineMentors_DevOps.git)
     cd marine-mentors
     ```
 
