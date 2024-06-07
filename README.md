@@ -17,14 +17,15 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
 - Docker e Docker Compose instalados na sua máquina
 - Java JDK 17 instalado
 - Maven instalado
-- Git
+- Git instalado
 
 ## Instalação
 1. Clone o repositório:
 
     ```bash
     git clone https://github.com/nicolasinohue/MarineMentors_DevOps.git
-    cd marine-mentors
+    cd MarineMentors_DevOps
+    cd MarineMentorTeste
     ```
 
 2. Construa a aplicação:
