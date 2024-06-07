@@ -17,6 +17,7 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
 - Docker e Docker Compose instalados na sua máquina
 - Java JDK 17 instalado
 - Maven instalado
+- Git
 
 ## Instalação
 1. Clone o repositório:
