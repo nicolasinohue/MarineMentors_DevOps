@@ -15,7 +15,7 @@ Este projeto é um portal de telemedicina construído usando Java Spring Boot, c
 Antes de começar, certifique-se de que você tem os seguintes requisitos atendidos:
 
 - Docker e Docker Compose instalados na sua máquina
-- Java JDK 21 instalado
+- Java JDK 17 instalado
 - Maven instalado
 
 ## Instalação
@@ -40,7 +40,11 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
 
 ## Uso
 ### Acessando a Aplicação
-- Abra seu navegador e navegue até [http://localhost:8080](http://localhost:8080)
+- **Executar container com o comando bash**
+
+    ```bash
+    docker-compose run --rm app bash
+    ```
 
 ### Verificando os Containers
 - Verifique o status dos containers em execução:
@@ -56,56 +60,11 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
     docker-compose logs app
     ```
 
-## Endpoints
-### Endpoints de Usuários
-- **Listar todos os usuários**
+##Encerrando a Aplicação
+- Utilize os comandos de encerramento para excluir containers, imagens e volumes criados:
 
-    ```http
-    GET /usuarios
-    ```
-
-- **Buscar usuário por ID**
-
-    ```http
-    GET /usuarios/buscarid/{id}
-    ```
-
-- **Criar um novo usuário**
-
-    ```http
-    POST /usuarios/add
-    ```
-    - Corpo da Requisição:
-
-    ```json
-    {
-      "nome": "Novo Usuario",
-      "email": "novo.usuario@example.com",
-      "senha": "senha123",
-      "data_criacao": "2024-06-06"
-    }
-    ```
-
-- **Atualizar um usuário existente**
-
-    ```http
-    PUT /usuarios/atualizar/{id}
-    ```
-    - Corpo da Requisição:
-
-    ```json
-    {
-      "nome": "Usuario Atualizado",
-      "email": "atualizado.usuario@example.com",
-      "senha": "atualizarsenha123",
-      "data_criacao": "2024-06-07"
-    }
-    ```
-
-- **Deletar um usuário**
-
-    ```http
-    DELETE /usuarios/delete/{id}
+    ```bash
+    docker-compose down -v --rmi all
     ```
 
 ## Contribuindo
