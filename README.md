@@ -60,7 +60,7 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
     docker-compose logs app
     ```
 
-##Encerrando a Aplicação
+### Encerrando a Aplicação
 - Utilize os comandos de encerramento para excluir containers, imagens e volumes criados:
 
     ```bash
